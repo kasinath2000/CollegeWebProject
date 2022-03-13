@@ -13,7 +13,7 @@ ul{
 .header{
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(73, 199, 0, 0.479),rgba(235, 102, 171, 0.8)),url('/img/bennar.jpg');
+    background-image: linear-gradient(rgba(73, 199, 0, 0.479),rgba(235, 102, 171, 0.8)),url('./img/bennar.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
