@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLLEGE PROJECT || KASI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/85a26e93f0.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><h1>km university</h1></a>
+            <div class="navLinks" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            <button class="btn1"><a href="login.html" target="_blank">login</a>
+            </button>
+        </nav>
+        <h1 class="co">our certificate & online programs for 2022</h1>
+
+    </section>
+    <!-------------------------blog page contant---------------->
+    <section class="blogContent">
+        <div class="row">
+            <div class="blogLeft">
+                <img src="./img/certificate.jpg" alt="">
+                <h2>our certificate & online programs for 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati voluptatibus ullam enim aperiam porro explicabo ut necessitatibus incidunt libero inventore sed doloremque commodi facere beatae consectetur, odio pariatur repellendus!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, modi blanditiis autem debitis magnam excepturi unde. Unde dolor odio, iure est aspernatur ad impedit quis facere necessitatibus libero explicabo eveniet?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae veritatis expedita, maxime adipisci facere reiciendis tenetur quisquam magnam dolorum ea eveniet sapiente quaerat perspiciatis architecto enim ipsum optio non quae.</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo debitis vero harum. Quisquam dolorem libero, atque velit impedit laudantium voluptates quos enim veniam, eligendi quae suscipit temporibus sed tenetur cum.</p>
+
+                <div class="commentBox">
+                    <h3>leave a comment</h3>
+                    <form class="commentForm">
+                        <input type="text" placeholder="Enter Your Name">
+                        <input type="email" placeholder="Enter Your Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="btn readBtn">post comment</button>
+
+                    </form>
+                </div>
+            </div>
+            <div class="blogRight">
+                <h3>post categories</h3>
+                <div>
+                    <span>busniness analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>data science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>machine learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>computer science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+            
+    </section>
+    
+    <!----------------------footer------------------------->
+    <footer class="footer">
+        <div class="containar">
+            <div class="row">
+                <div class="footerCol">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footerCol">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">payment options</a></li>
+                        <!-- <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li> -->
+                    </ul>
+                </div>
+                <!-- <div class="footerCol">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div> -->
+                <div class="footerCol">
+                    <h4>follow us</h4>
+                    <div class="socialLinks">
+                        <a href="https://www.facebook.com/kasinath.mandal.58/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/kasinath2000" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/kasinath_km_2000/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/kasinath-mandal-a5a6621ba/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/kasinath2000"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p><a href="https://github.com/kasinath2000"><i class="fa-solid fa-copyright"></i> By Kasinath Mandal 2022 </a></p>
+            
+        </div>
+
+    </footer>
+
+
+
+
+
+
+    <!-------------------------------javaScrip------------------------>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
