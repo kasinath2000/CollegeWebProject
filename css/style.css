@@ -349,7 +349,7 @@ p{
 .cta{
     width: 80%;
     margin: 100px auto;
-    background-image: linear-gradient(rgba(231, 155, 194, 0.8),rgba(231, 155, 194, 0.8)),url('/img/bennar.jpg');
+    background-image: linear-gradient(rgba(231, 155, 194, 0.8),rgba(231, 155, 194, 0.8)),url('/bennar.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -491,7 +491,7 @@ p{
 .subheader{
     width: 100%;
     height: 50vh;
-    background: linear-gradient(rgba(73, 199, 0, 0.479),rgba(235, 102, 171, 0.8)),url("/subheader.jpg");
+    background: linear-gradient(rgba(73, 199, 0, 0.479),rgba(235, 102, 171, 0.8)),url('/subheader.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
